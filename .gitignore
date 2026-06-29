@@ -1,1 +1,23 @@
 .env
+.env.*
+!.env.example
+
+# Java build artifacts
+sms-service/target/
+
+# Frontend build artifacts
+sms-frontend/dist/
+sms-frontend/node_modules/
+
+# Local debug/test response dumps
+*.json
+schema_dump.sql
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
